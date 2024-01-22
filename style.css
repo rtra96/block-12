@@ -27,8 +27,9 @@
 } 
 
 .hondapic {
+    display: grid;
     max-height: 231px;
-
+   
 }
 
 .shredding {
@@ -43,12 +44,50 @@
     max-height: 200px;
 }
 
-.project-name{
-    padding-block-start: 20px;
-    font-weight: 900;
-    font-size: 2em;
-    margin: 0 0 1em;
-    border-bottom: 1px solid white;
+.aboutmain{
+    display: grid;
+    grid-auto-flow: column;
+
 }
 
+.projects{
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #884242;
+    font-family: 'Open Sans', sans-serif;
+} 
 
+.projectheader {
+    text-align: center;
+}
+
+img {
+     max-width: 200px;
+     max-height: 200px;
+}
+
+.project1{
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #884242;
+}
+.project2{
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #884242;
+}
+.project3{
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #884242;
+}
